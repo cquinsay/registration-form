@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, nitial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1> Registration Form</h1>
+        <form action="/data">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+        <br>
+        <p></p>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+        <br>
+        <p></p>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <p></p>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <p></p>
+        <label for="pw_confirm">Password Confirmation</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+        <br>
+        <p></p>
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <p></p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <br>
+        <p>A short desciption about yourself:</p>
+        <textarea name="description"></textarea>
+        <br>
+        <p></p>
+        <label for="favorite_language">Favorite Language</label>
+        <select id="favorite_language">
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="php">PHP</option>
+        </select>
+        <br>
+        <p></p>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
